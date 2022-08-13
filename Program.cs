@@ -20,18 +20,18 @@ namespace class1
 
     class Player
     {
-        public string Name { get; private set; }
-        public int Level { get; private set; }
+        private string _name;
+        private int _level; 
 
         public Player(string name, int level)
         {
-            Name = name;
-            Level = level;
+            _name = name;
+            _level = level;
         }
 
         public void ShowInfo ()
         {
-            Console.WriteLine($"Игрок с ником {Name}. Уровень - {Level}");
+            Console.WriteLine($"Игрок с ником {_name}. Уровень - {_level}");
         }
-    }    
+    }
 }
