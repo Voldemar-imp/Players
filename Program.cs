@@ -33,7 +33,5 @@ namespace class1
         {
             Console.WriteLine($"Игрок с ником {Name}. Уровень - {Level}");
         }
-    }
-
-    
+    }    
 }
